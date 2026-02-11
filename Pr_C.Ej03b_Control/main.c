@@ -24,7 +24,6 @@ void echo(void)
 
             if (isLowerCase(c)) printf("Convertido a mayusculas: %c\n", toUpperCase(c));
             if (isUpperCase(c)) printf("Convertido a minusculas: %c\n", toLowerCase(c));
-            fflush(stdout);
         }
     } while (c != 'q');
 }

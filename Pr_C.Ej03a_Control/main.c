@@ -18,7 +18,6 @@ void echo(void)
         {
             c -= 'a' - 'A';
             printf("Has introducido la letra: %c. ASCII = %i\n", c, c);
-            fflush(stdout);
         }
     } while (c != 'Q');
 }
