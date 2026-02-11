@@ -1,5 +1,8 @@
 # Ejecutables
 *.exe
 
+# Archivos del sistema
+desktop.ini
+
 # VS Code (opcional)
 .vscode/
